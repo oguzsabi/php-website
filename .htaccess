@@ -1,0 +1,5 @@
+ErrorDocument 400 https://localhost/SE362/coursework/error.php
+ErrorDocument 401 https://localhost/SE362/coursework/error.php
+ErrorDocument 403 https://localhost/SE362/coursework/error.php
+ErrorDocument 404 https://localhost/SE362/coursework/error.php
+ErrorDocument 500 https://localhost/SE362/coursework/error.php
