@@ -197,7 +197,7 @@ class DatabaseController {
     // Order functions START
 
     function getCustomerOrders($userId) {
-        $sql = "SELECT * FROM customer_orders INNER JOIN products ON customer_orders.product_id=products.id WHERE user_id=$userId";
+        $sql = "SELECT * FROM customer_orders INNER JOIN products ON customer_orders.product_id=products.id WHERE user_id=$userId ORDER BY customer_orders.id DESC";
         $result = mysqli_query($this->connection, $sql);
 
         $customerOrders = [];

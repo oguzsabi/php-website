@@ -34,7 +34,9 @@
                 <h3>Thank you for your purchase!</h3>
                 <p>Your payment has been successfully finished.</p>
                 <p>Your transaction ID is <?php echo $transactionId; ?></p>
-                <a href="index.php" role="button" class="btn btn-success btn-lg mb-2">Continue Shopping</a>
+                <a href="orders.php" role="button" class="btn btn-warning mb-1">View Order</a>
+                <p></p>
+                <a href="index.php" role="button" class="btn btn-success btn-lg mb-3">Continue Shopping</a>
             </div>
             <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
         </div>
